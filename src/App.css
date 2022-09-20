@@ -4,7 +4,8 @@ body {
 }
 .DetailRow {
   margin: 0 !important;
-  background-color: antiquewhite;
+  background-color: #323232;
+  height: 100vh;
 }
 .DFlexCenter {
   display: flex;
@@ -16,21 +17,24 @@ body {
 .CenterHeading {
   font-size: 32px;
   max-width: 500px;
+  color: #fff;
 }
 .SubContent {
   font-size: 16px;
   max-width: 600px;
   margin-top: 16px;
   margin-bottom: 16px;
+  color: #fff;
 }
 .InputWrraper {
+  margin-top: 1rem;
   display: flex;
   border-color: #e7e7e9;
-  background-color: red;
+  background-color: #fff;
   -webkit-box-shadow: none;
   box-shadow: none;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 1rem 1.5rem;
   width: 40rem;
   border-radius: 50px;
   justify-content: left;
@@ -38,4 +42,64 @@ body {
 .InputWrraper input {
   border: none;
   outline: none;
+  width: 100%;
+}
+.icons {
+  margin-right: 0.5rem;
+}
+.TrandingSearch {
+  margin: 0%;
+  padding: 0.2rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  justify-content: center;
+  font-weight: 400;
+}
+.TrandingSearchWrraper {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  display: flex;
+  width: 100% !important;
+  align-items: center;
+  justify-content: center;
+}
+.SearchTitle {
+  margin: 0%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+.Tabs {
+  font-size: 17px;
+  color: #fff;
+  border: 1px solid #fff;
+  width: fit-content;
+  display: flex;
+  padding: 0.6em 1rem;
+  border-radius: 40px;
+  margin: 0%;
+  justify-content: center;
+  margin-left: 1rem;
+}
+.TabsWrraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Adwrraper {
+  background: #0d0c22;
+  color: #fff;
+  padding: 0.2rem;
+  text-align: center;
+}
+.SignupText {
+  margin-left: 0.5rem;
+  color: #f082ac;
 }
