@@ -9,7 +9,7 @@ body {
 }
 .DFlexCenter {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -49,12 +49,12 @@ body {
 }
 .TrandingSearch {
   margin: 0%;
-  padding: 0.2rem;
+  padding: 0.2rem 1rem;
   margin-right: 0.5rem;
   margin-left: 0.5rem;
   border-radius: 20px;
   border: 1px solid #fff;
-  width: 7rem;
+  width: fit-content;
   display: flex;
   align-items: center;
   text-align: center;
@@ -63,7 +63,7 @@ body {
   font-weight: 400;
 }
 .TrandingSearchWrraper {
-  margin-top: 0rem !important;
+  margin-top: 3rem !important;
   margin-bottom: 0rem !important;
   display: flex;
   width: 100% !important;
@@ -79,7 +79,7 @@ body {
 .Tabs {
   font-size: 17px;
   color: #fff;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   width: fit-content;
   display: flex;
   padding: 0.6em 1rem;
@@ -87,11 +87,19 @@ body {
   margin: 0%;
   justify-content: center;
   margin-left: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+.Tabs:hover {
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
 }
 .TabsWrraper {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 3rem;
 }
 .Adwrraper {
   background: #0d0c22;
@@ -102,4 +110,26 @@ body {
 .SignupText {
   margin-left: 0.5rem;
   color: #f082ac;
+}
+.NavbarCustom {
+  padding: 0rem 0.5rem !important;
+}
+.SigninText {
+  margin: 0%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #9e9ea7;
+  font-weight: 600;
+}
+.BtnCustom {
+  background-color: #ea4c89 !important;
+  color: #fff !important;
+  border: none !important;
+  outline: none !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  padding: 0.7rem 0.9rem 0.7rem 0.9rem !important;
+}
+.FormCenter {
+  align-items: center;
 }
