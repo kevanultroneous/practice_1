@@ -20,12 +20,11 @@ function App() {
             <Image src={icon} height={70} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
+          <Navbar.Collapse
+            id="navbarScroll"
+            className="pb-4 pb-lg-0 pb-xl-0 pb-md-4"
+          >
+            <Nav className="me-auto my-2 my-lg-0" navbarScroll>
               {[
                 "Inspiration",
                 "Find Work",

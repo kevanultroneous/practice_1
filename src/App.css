@@ -158,27 +158,16 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 1080px) {
-  .InputWrraper {
-    width: 100%;
-  }
-  .CenterHeading {
-    font-size: 25px;
-  }
-  .SubContent {
-    font-size: 14px;
-  }
   .TabsWrraper {
     width: 100%;
     overflow: hidden;
     overflow-x: scroll;
-    padding-left: 12rem;
+    padding-left: 14rem;
   }
   .TrandingSearchWrraper {
     width: 100% !important;
     overflow: hidden;
     overflow-x: scroll;
-  }
-  .Tabs {
   }
 }
 @media (min-width: 1200px) and (max-width: 1730px) {
